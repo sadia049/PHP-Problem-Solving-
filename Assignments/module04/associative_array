@@ -1,0 +1,66 @@
+<?php
+$age=['peter'=>24,'john'=>45,'Ben'=>30];
+//echo "Peter is ". $age['peter']." years old";
+$foods = [
+    'vegetables' => 'brinjal',
+    'brocolli',
+    'capsicum',
+    'fruits' => 'orange',
+    'banana',
+    'apple',
+    'drinks' => 'water',
+    'milk'
+];
+
+
+function print_array(array &$food)
+{
+    
+    foreach ($food as $key => $value) {
+        //$values=$value[$i];
+        //var_dump($value);
+        echo $key . "=" . $value . " "."\n";
+        $food[$key]['average score']='carrot';
+
+        
+
+
+    }
+    
+  
+    echo "\n";
+}
+
+
+function print_associative(array &$foods)
+{
+    $keys = array_keys($foods);
+    for ($i = 0; $i < count($keys); $i++) {
+        $key = $keys[$i];
+        //echo $key . "\n";
+        echo $foods[$key].="carrot ";
+    }
+    echo "\n";
+
+}
+
+
+/*$age['den']=35;
+unset($age["peter"]);
+array_push($age,$age['check']=55);
+array_pop($age);*/
+
+// echo "printing food array using foreach loop\n";
+// print_r($foods);
+print_array($foods);
+//print_r($foods);
+
+// echo "printing food array using for loop\n";
+ //print_associative($foods);
+// echo "printing food array using array_keys loop\n";
+// print_r(array_keys($age));
+// print_r(array_values($foods));
+
+
+
+?>

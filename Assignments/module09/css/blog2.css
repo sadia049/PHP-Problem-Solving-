@@ -1,0 +1,236 @@
+body{
+	background-color:#F8F9F9;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:black;
+}
+p
+{
+  color: rgba(0,0,0,0.7);
+}
+header{
+	padding:30px 0;
+	
+    margin: auto;
+}
+.container{
+	width: 60%;
+}
+
+
+
+.horizontal p{
+	float:left;
+}
+.horizontal a{
+	float:right;
+}
+.card-body h3{
+	font-family:serif, "sans-serif", cursive, fantasy, monospace;
+	font-size:50px;
+}
+.card-body a{
+text-decoration:none;
+color:black;  
+}
+.card-body a:hover{
+text-decoration:none;
+color:wheat;  
+}
+
+.featured-products
+ {
+ 	padding:50px 0;
+	
+ }
+
+
+.featured-products img
+{ 
+  width: 100%;
+  transition: 1s;
+  cursor: pointer;
+}
+.featured-products img:hover
+{
+   transform:scale(1.1);
+}
+/*On sale css*/
+.title-box
+{   padding:4px 8px;
+    margin-bottom:15px;
+	background-color: #FFC0CB;
+    width: 180px;
+    height: 40px;
+    display: flex;
+	color: #fff;
+
+}
+.title-box h2
+{
+	font-size: 24px;
+}
+.title-box::after
+{
+	content: '';
+	border-top: 40px solid #FFC0CB;
+	border-right: 50px solid transparent;
+	position: absolute;
+	display: flex;
+	margin-top: -4px;
+	margin-left: 170px;
+}
+.btn-secondary {
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+
+/*footer strt*/
+.footer
+{
+	margin:0;
+	padding:0;
+}
+.wrap
+{
+	max-width:1170px;
+	background-color:red;
+	margin:0 auto;
+}
+
+/**Sidebar***/
+
+* {
+box-sizing: border-box
+}
+
+#sidebar {
+width: 20%;
+padding: 10px;
+margin: 0;
+float: left
+}
+
+ul {
+list-style: none;
+padding: 5px
+}
+li a {
+color: darkgray;
+text-decoration: none
+}
+li a:hover {
+text-decoration: none;
+color: darksalmon
+}
+.fa-circle {
+font-size: 20px
+}
+#red {
+color: #e94545d7
+}
+#teal {
+color: rgb(69, 129, 129)
+}
+#blue {
+color: #0000ff
+}
+
+
+.filter {
+display: none;
+padding: 0;
+margin: 0
+}
+@media(min-width:991px) {
+
+#mobile-filter {
+display: none
+}
+}
+@media(min-width:768px) and (max-width:991px) {
+
+#mobile-filter {
+display: none
+}
+}
+@media(min-width:568px) and (max-width:767px) {
+
+.fa-circle {
+font-size: 15px
+}
+#mobile-filter {
+display: none
+}
+}
+@media(max-width:567px) {
+
+#sidebar {
+width: 100%;
+padding: 10px;
+margin: 0;
+float: left
+}
+
+.list-group-item {
+padding: 3px
+}
+.offset-1 {
+margin-left: 8%
+}
+.filter {
+display: block;
+margin-left: 70%;
+margin-top: 2%
+}
+#sidebar {
+display: none
+}
+#mobile-filter {
+padding: 10px
+}
+}
+
+
+
+
+
+
+
+
+/******sidebar end**************/
+
+
+/*footer end*/
+
+
+
+
+h1{
+  font-size: 25px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-size: 38px;
+  color: #FFC0CB;
+}
+.menu ul li a
+{
+
+}
+.menu ul li a:hover
+{
+   color:#FFC0CB !important;
+}
+.menu ul li:first-child a
+{
+	padding-left: 0 !important;
+}
+i
+{
+	color: #FFC0CB;
+}
